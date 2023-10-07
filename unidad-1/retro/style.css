@@ -1,0 +1,44 @@
+
+#parrafo{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container > .item > #parrafo > span{
+    color: blue;
+}
+
+.container >.item >article{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.familia{
+    text-align: center;
+}
+.familia div:nth-child(2){
+    color: red;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.danger{
+ border: 1px red solid;
+}
+
+
+.imagenes .img{
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/16/11/04/tiger-8256443_960_720.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 3px red solid;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+    justify-content: space-evenly;/* mover horizontal */
+    align-items:  stretch; /*  mover vertical */
+} 
+
+.container div{
+    border: 1px blue solid;
+    width: 33%;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container-img{
+    margin: 0px;
+    border: 1px red solid;
+}
+
+.container-img > img{
+    width: 100%;
+}
+
+.container-img > figcaption{
+    text-align: justify;
+}
+
+.container-form div{
+    border: 1px blue solid;
+    width: 45%;
+}
+
+.c-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px goldenrod solid;
+    text-align: center;
+}
+
+.c-inputs input{
+    text-align: center;
+}
+
+.padre{
+    
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(31, 27, 27); color: white;">
+    <nav>
+        <ul style="list-style: none;">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="https://tiktok.com">Nosotros</a>
+            </li>
+            <li>
+                <a href="https://google.com">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main style="border:1px solid red">
+        <h1 style="text-align: center; color: rgb(4, 128, 0);"> Pagina web</h1>
+    </main>
+    <br>
+
+
+    <section style="display: flex; gap: 1rem;">
+        <article style="width: 33%; border: 1px solid white;">
+            <h1 style="text-align: center;">Muñecas</h1>
+            <p>Lorem ipsum dolor</p>
+        </article>
+        <article style="width: 33%; border: 1px solid white;;">
+            <h1 style="text-align: center;">Autos</h1>
+            <p>Lorem ipsum dolor</p>
+        </article>
+        <article style="width: 33%; border: 1px solid white;">
+            <h1 style="text-align: center;">Aviones</h1>
+            <p>Lorem ipsum dolor</p>
+        </article>
+    </section>
+
+    <div>
+        <h2>Nosotros</h2>
+        <p style="width: 30%; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae nisi praesentium quae modi non quos distinctio. Provident, consequatur praesentium a ut dolores temporibus dignissimos cumque voluptatibus quasi, fuga iusto?</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <h3>Tablas</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luis</td>
+                    <td>la@gmail.com</td>
+                    <td>99912121234</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>lmara@gmail.com</td>
+                    <td>99912221234</td>
+                </tr>
+                <tr>
+                    <td>Mario</td>
+                    <td>mar@gmail.com</td>
+                    <td>99912121234</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div>
+        <form action="guardar.php" method="post">
+            <div>
+            <label for="text">Nombre</label>
+            <br>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            
+            <br>
+            <div>
+            <label for="correo">Correo</label>
+            <br>
+            <input type="mail" id="email" placeholder="Escribe tu correo.">
+            </div>
+            
+            <br>
+            <div>
+                <label for="telefono">Telefono</label>
+                <br>
+                <input type="tel" id="telefono" placeholder="Escribe tu telefono">
+            </div>
+
+            <br>
+            <div>
+                <span for="genero">Genero</span>
+
+                <br>
+                <label for="masculino">
+                    Masculino
+                    <input type="radio" name="genero">
+                </label>
+
+                <br>
+                <label for="femenino">
+                    Femenino
+                    <input type="radio" name="genero">
+                </label>
+
+                <br>
+                <label for="Otro">
+                    Otro
+                    <input type="radio" name="genero">
+                </label>
+
+            </div>
+
+            <br>    
+            <div>
+                <span>Estado Civil</span>
+                <br>
+                <label for="casado">
+                    Casado
+                    <input type="checkbox" name="casado">
+                </label>
+                <label for="divorciado">
+                    Casado
+                    <input type="checkbox" name="divorciado">
+                </label>
+            </div>
+
+            <br>
+            <div>
+                <label for="productos">Productos</label>
+                <br>
+                <select name="productos" id="productos">
+                    <option value="1">Muñecas</option>
+                    <option value="2">Autos</option>
+                    <option value="3">Aviones</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+            <label for="comentario">Comentario</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <button type="submit">Guardar</button>
+            </div>
+            <br><br><br>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

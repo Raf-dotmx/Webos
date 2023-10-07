@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(179, 219, 191);
+}
+p{
+    color: darksalmon ;
+    font-size: 30px;
+}
+
+.texto{
+    color: blue;
+    font-size: 20px;
+}
+
+#parrafo{
+    color: orangered;
+    font-size: 15px;
+    text-align: justify;
+    width: 40%;
+}
+
+/* .container p{
+    border: 1px red solid;
+    width: 80%;
+    margin: auto;
+} */
+
+.container > p{
+    border: 1px red solid;
+    width: 80%;
+    margin: auto;
+    color: purple; 
+}
+
+.center > span{
+    border: 1px purple solid;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Afecta a todas las p despues de la clase destructor */
+.desctructor ~ p{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+/* Afecta a todas las p siguiente de la clase destructor
+.desctructor + p{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+} */
+
+.formulario{
+    border: 1px rgb(49, 0, 128) solid;
+    padding: 10px;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.formulario > h1{
+    text-align: center;
+}
+
+.container-input-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-input{
+    width: 50%;
+    margin: auto;
+    border: 1px red solid;
+}
+
+input[type="text"]{
+    border: 2px solid blue;
+    width: 30%;
+    padding: 15px;
+    color: yellow;
+}
+
+input[type="password"]{
+    border: 2px solid violet;
+    width: 50%;
+    padding: 10px;
+    color: red;
+}
+

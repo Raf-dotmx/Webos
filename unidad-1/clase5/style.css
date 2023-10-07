@@ -1,0 +1,86 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+    column-gap: 1rem;
+}
+
+.container{
+    background-image: url('./images/spaguetti.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    /* derecha izquierda vertical grande color */
+    box-shadow: -10px -10px 30px 20px rgb(192, 190, 190);
+}
+
+.formulario{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px red solid;
+}
+
+.formulario h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.c-input {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    row-gap: 5px;   
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.c-input label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.c-input input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #00aa6a;
+    font-size: 1.2rem;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn button{
+    padding: 10px 15px 10px 15px;
+    background-color: #00aa6a;
+    border: 1px #00aa6a solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.container-btn button:hover{
+    background-color: white;
+    color: #00aa6a;
+    border: 1px solid #00aa6a;
+    cursor: pointer;
+    width: 100px;
+}

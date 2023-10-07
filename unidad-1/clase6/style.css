@@ -1,0 +1,77 @@
+.container div:hover{
+    background-color: red;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 1px red solid;
+    color: white;
+}
+
+.container-link div a{
+    font-size: 20px;
+}
+
+.container-link div a:active{
+    color: green;
+    font-size: 1rem;
+}
+
+.box:focus{
+    outline: none;
+    border: 3px red solid;
+}   
+
+.container-button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    border: 3px rgb(207, 252, 82) solid;
+    width: 150px;
+}
+
+.button:hover:not(.active){
+    cursor: pointer;
+    background-color: red;
+}
+
+.button:hover:is(.active){
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+.familia div:first-child{
+    color: red;
+}
+
+.familia div:last-child{
+    color: blue
+}
+
+.familia div:nth-child(2){
+    color: purple;
+}
+
+@media (max-width: 600px){
+    .container-button{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .button{
+        background-color: pink;
+        color: black;
+    }
+
+}

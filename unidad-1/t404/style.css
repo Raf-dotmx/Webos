@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: white;
+    height: 100%;
+}
+
+.padre{
+    /* border: 5px red solid; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    /* border: 3px blue solid; */
+    font-family: "Inconsolata", monospace;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    width: 170px;
+    margin: 50px 0 0 97px;
+}
+
+
+.cont-img{
+    /* border: 3px yellow solid; */
+}
+
+.cont-img img {
+    width: 539px;
+    height: 450px;
+}
+
+.enmedio{
+    /* border: 3px green solid; */
+    margin: 100px;
+    font-family: "Space Mono", monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    /* border: #333333 4px solid; */
+    width: 60%;
+}
+
+
+.info h1{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 30px;
+    width: 590px;
+    color: #333333;
+}
+
+.info p{
+    font-size: 24px;
+    margin-bottom: 30px;
+    width: 400px;
+    color: #4F4F4F;
+
+
+}
+
+.info button{
+    background-color: #333333;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 216px;
+    height: 68px;
+
+}
+
+@media (max-width: 600px) and (min-width: 375px){
+    .titulo{
+       margin: 10% 0% 0% 05%;
+    }
+    
+    .enmedio{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont-img img{
+        width: 286px;
+        height: 100%;
+        /* width: 130%;
+        height: 100%; */
+    }
+
+    .info{
+        margin: 100px;
+        width: auto;
+    }
+
+    .info h1{
+        width: 110%;
+        font-size: 45px;
+    }
+
+    .info p{
+        font-size: 18px;
+        width: 328px;
+    }
+
+    .info button{
+        width: 60%;  
+    }
+}

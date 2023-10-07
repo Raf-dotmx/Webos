@@ -1,0 +1,78 @@
+.borde{
+    border: 1px grey solid;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.borde-center > h1{
+    text-align: center;
+    margin: 0px;
+}
+
+input[type="valor"]{
+    color: black;
+    width: 65%;
+    padding: 5px;
+}
+
+.clase{
+    margin: 2rem;
+    text-align: justify;
+}
+
+
+.container-img{
+    margin: auto;
+    width: 60%;
+}
+
+.extra span{
+    display: inline;
+    color: red;
+    font-size: 20px;
+}
+
+.bogde{
+    margin: 2rem;
+    border: 1px grey solid;
+    padding-left: 10px;
+}
+
+.bodge-input{
+    text-align: end;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 25rem;
+}
+
+
+.bordep3 h1{
+    border: 1px grey solid;
+    padding: 10px;
+}
+
+
+.texto + p{
+    text-align: right;
+    width: 70%;
+    margin: auto;
+    padding-top: 15px;
+    color: red;
+}
+
+.texto ~ p{
+    text-align: end;
+    width: 70%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+
+
+/* .texto-rojo > p{
+    color: rgb(224, 85, 85);
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+} */

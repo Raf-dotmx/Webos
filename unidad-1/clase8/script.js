@@ -35,7 +35,6 @@ function saludar(){
     p.classList.add("ps")
     p.textContent = valor
     p.style.marginLeft="10px"
-    p.style
 
     const div = document.createElement("div")
     div.style.marginTop="20px"

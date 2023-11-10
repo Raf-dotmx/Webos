@@ -42,7 +42,6 @@ function saludar(){
     div.appendChild(img)
     div.appendChild(p)
 
-
     contenedor.appendChild(div)
     input.value = ''
     contador++
